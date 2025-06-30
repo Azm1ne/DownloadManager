@@ -123,9 +123,8 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
     appFont.setPointSize(15);
     aboutTab->setFont(appFont);
 
-    aboutTab->setText("This is a download manager application by\n\n"
+    aboutTab->setText("This is a download manager application \n\n"
                       //"Version: 1.0\n"
-                      "Priya Rani Vokto(2022331051) &\nMd Bin Monjur Azmine(2022331022)\n\n"
                       "This application is a part of our course CSE 150.  Dept of CSE,  SUST");
 
     tabWidget->addTab(aboutTab, "About");
